@@ -1,0 +1,721 @@
+%%% ====================================================================
+%%%  BibTeX-file{
+%%%     author          = "Gerry Murray",
+%%%     version         = "1.2",
+%%%     date            = "2 April 2012",
+%%%     filename        = "acmsmall-sample-bibfile.bib",
+%%%     address         = "ACM, NY",
+%%%     email           = "murray at hq.acm.org",
+%%%     codetable       = "ISO/ASCII",
+%%%     keywords        = "ACM Reference Format, bibliography, citation, references",
+%%%     supported       = "yes",
+%%%     docstring       = "This BibTeX database file contains 'bibdata' entries
+%%%                        that 'match' the examples provided in the Specifications Document
+%%%                        AND, also, 'legacy'-type bibs. It should assist authors in 
+%%%                        choosing the 'correct' at-bibtype and necessary bib-fields
+%%%                        so as to obtain the appropriate ACM Reference Format output. 
+%%%			   It also contains many 'Standard Abbreviations'. "
+%%%  }
+%%% ====================================================================
+
+% Journals
+
+% First the Full Name is given, then the abbreviation used in the AMS Math
+% Reviews, with an indication if it could not be found there.
+% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+
+ %{AMS}
+ @String{AMSTrans = "American Mathematical Society Translations" }
+ @String{AMSTrans = "Amer. Math. Soc. Transl." }
+ @String{BullAMS = "Bulletin of the American Mathematical Society" }
+ @String{BullAMS = "Bull. Amer. Math. Soc." }
+ @String{ProcAMS = "Proceedings of the American Mathematical Society" }
+ @String{ProcAMS = "Proc. Amer. Math. Soc." }
+ @String{TransAMS = "Transactions of the American Mathematical Society" }
+ @String{TransAMS = "Trans. Amer. Math. Soc." }
+
+ %ACM
+ @String{CACM = "Communications of the {ACM}" }
+ @String{CACM = "Commun. {ACM}" }
+ @String{CompServ = "Comput. Surveys" }
+ @String{JACM = "J. ACM" }
+ @String{ACMMathSoft = "{ACM} Transactions on Mathematical Software" }
+ @String{ACMMathSoft = "{ACM} Trans. Math. Software" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newsletter" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newslett." }
+
+ @String{AmerSocio = "American Journal of Sociology" }
+ @String{AmerStatAssoc = "Journal of the American Statistical Association" }
+ @String{AmerStatAssoc = "J. Amer. Statist. Assoc." }
+ @String{ApplMathComp = "Applied Mathematics and Computation" }
+ @String{ApplMathComp = "Appl. Math. Comput." }
+ @String{AmerMathMonthly = "American Mathematical Monthly" }
+ @String{AmerMathMonthly = "Amer. Math. Monthly" }
+ @String{BIT = "{BIT}" }
+ @String{BritStatPsych = "British Journal of Mathematical and Statistical
+          Psychology" }
+ @String{BritStatPsych = "Brit. J. Math. Statist. Psych." }
+ @String{CanMathBull = "Canadian Mathematical Bulletin" }
+ @String{CanMathBull = "Canad. Math. Bull." }
+ @String{CompApplMath = "Journal of Computational and Applied Mathematics" }
+ @String{CompApplMath = "J. Comput. Appl. Math." }
+ @String{CompPhys = "Journal of Computational Physics" }
+ @String{CompPhys = "J. Comput. Phys." }
+ @String{CompStruct = "Computers and Structures" }
+ @String{CompStruct = "Comput. \& Structures" }
+ @String{CompJour = "The Computer Journal" }
+ @String{CompJour = "Comput. J." }
+ @String{CompSysSci = "Journal of Computer and System Sciences" }
+ @String{CompSysSci = "J. Comput. System Sci." }
+ @String{Computing = "Computing" }
+ @String{ContempMath = "Contemporary Mathematics" }
+ @String{ContempMath = "Contemp. Math." }
+ @String{Crelle = "Crelle's Journal" }
+ @String{GiornaleMath = "Giornale di Mathematiche" }
+ @String{GiornaleMath = "Giorn. Mat." } % didn't find in AMS MR., ibid.
+
+ %IEEE
+ @String{Computer = "{IEEE} Computer" }
+ @String{IEEETransComp = "{IEEE} Transactions on Computers" }
+ @String{IEEETransComp = "{IEEE} Trans. Comput." }
+ @String{IEEETransAC = "{IEEE} Transactions on Automatic Control" }
+ @String{IEEETransAC = "{IEEE} Trans. Automat. Control" }
+ @String{IEEESpec = "{IEEE} Spectrum" } % didn't find in AMS MR
+ @String{ProcIEEE = "Proceedings of the {IEEE}" }
+ @String{ProcIEEE = "Proc. {IEEE}" } % didn't find in AMS MR
+ @String{IEEETransAeroElec = "{IEEE} Transactions on Aerospace and Electronic
+     Systems" }
+ @String{IEEETransAeroElec = "{IEEE} Trans. Aerospace Electron. Systems" }
+
+ @String{IMANumerAna = "{IMA} Journal of Numerical Analysis" }
+ @String{IMANumerAna = "{IMA} J. Numer. Anal." }
+ @String{InfProcLet = "Information Processing Letters" }
+ @String{InfProcLet = "Inform. Process. Lett." }
+ @String{InstMathApp = "Journal of the Institute of Mathematics and
+     its Applications" }
+ @String{InstMathApp = "J. Inst. Math. Appl." }
+ @String{IntControl = "International Journal of Control" }
+ @String{IntControl = "Internat. J. Control" }
+ @String{IntNumerEng = "International Journal for Numerical Methods in
+     Engineering" }
+ @String{IntNumerEng = "Internat. J. Numer. Methods Engrg." }
+ @String{IntSuper = "International Journal of Supercomputing Applications" }
+ @String{IntSuper = "Internat. J. Supercomputing Applic." } % didn't find
+%% in AMS MR
+ @String{Kibernetika = "Kibernetika" }
+ @String{JResNatBurStand = "Journal of Research of the National Bureau
+     of Standards" }
+ @String{JResNatBurStand = "J. Res. Nat. Bur. Standards" }
+ @String{LinAlgApp = "Linear Algebra and its Applications" }
+ @String{LinAlgApp = "Linear Algebra Appl." }
+ @String{MathAnaAppl = "Journal of Mathematical Analysis and Applications" }
+ @String{MathAnaAppl = "J. Math. Anal. Appl." }
+ @String{MathAnnalen = "Mathematische Annalen" }
+ @String{MathAnnalen = "Math. Ann." }
+ @String{MathPhys = "Journal of Mathematical Physics" }
+ @String{MathPhys = "J. Math. Phys." }
+ @String{MathComp = "Mathematics of Computation" }
+ @String{MathComp = "Math. Comp." }
+ @String{MathScand = "Mathematica Scandinavica" }
+ @String{MathScand = "Math. Scand." }
+ @String{TablesAidsComp = "Mathematical Tables and Other Aids to Computation" }
+ @String{TablesAidsComp = "Math. Tables Aids Comput." }
+ @String{NumerMath = "Numerische Mathematik" }
+ @String{NumerMath = "Numer. Math." }
+ @String{PacificMath = "Pacific Journal of Mathematics" }
+ @String{PacificMath = "Pacific J. Math." }
+ @String{ParDistComp = "Journal of Parallel and Distributed Computing" }
+ @String{ParDistComp = "J. Parallel and Distrib. Comput." } % didn't find
+%% in AMS MR
+ @String{ParComputing = "Parallel Computing" }
+ @String{ParComputing = "Parallel Comput." }
+ @String{PhilMag = "Philosophical Magazine" }
+ @String{PhilMag = "Philos. Mag." }
+ @String{ProcNAS = "Proceedings of the National Academy of Sciences
+                    of the USA" }
+ @String{ProcNAS = "Proc. Nat. Acad. Sci. U. S. A." }
+ @String{Psychometrika = "Psychometrika" }
+ @String{QuartMath = "Quarterly Journal of Mathematics, Oxford, Series (2)" }
+ @String{QuartMath = "Quart. J. Math. Oxford Ser. (2)" }
+ @String{QuartApplMath = "Quarterly of Applied Mathematics" }
+ @String{QuartApplMath = "Quart. Appl. Math." }
+ @String{RevueInstStat = "Review of the International Statisical Institute" }
+ @String{RevueInstStat = "Rev. Inst. Internat. Statist." }
+
+ %SIAM
+ @String{JSIAM = "Journal of the Society for Industrial and Applied
+     Mathematics" }
+ @String{JSIAM = "J. Soc. Indust. Appl. Math." }
+ @String{JSIAMB = "Journal of the Society for Industrial and Applied
+     Mathematics, Series B, Numerical Analysis" }
+ @String{JSIAMB = "J. Soc. Indust. Appl. Math. Ser. B Numer. Anal." }
+ @String{SIAMAlgMeth = "{SIAM} Journal on Algebraic and Discrete Methods" }
+ @String{SIAMAlgMeth = "{SIAM} J. Algebraic Discrete Methods" }
+ @String{SIAMAppMath = "{SIAM} Journal on Applied Mathematics" }
+ @String{SIAMAppMath = "{SIAM} J. Appl. Math." }
+ @String{SIAMComp = "{SIAM} Journal on Computing" }
+ @String{SIAMComp = "{SIAM} J. Comput." }
+ @String{SIAMMatrix = "{SIAM} Journal on Matrix Analysis and Applications" }
+ @String{SIAMMatrix = "{SIAM} J. Matrix Anal. Appl." }
+ @String{SIAMNumAnal = "{SIAM} Journal on Numerical Analysis" }
+ @String{SIAMNumAnal = "{SIAM} J. Numer. Anal." }
+ @String{SIAMReview = "{SIAM} Review" }
+ @String{SIAMReview = "{SIAM} Rev." }
+ @String{SIAMSciStat = "{SIAM} Journal on Scientific and Statistical
+     Computing" }
+ @String{SIAMSciStat = "{SIAM} J. Sci. Statist. Comput." }
+
+ @String{SoftPracExp = "Software Practice and Experience" }
+ @String{SoftPracExp = "Software Prac. Experience" } % didn't find in AMS MR
+ @String{StatScience = "Statistical Science" }
+ @String{StatScience = "Statist. Sci." }
+ @String{Techno = "Technometrics" }
+ @String{USSRCompMathPhys = "{USSR} Computational Mathematics and Mathematical
+     Physics" }
+ @String{USSRCompMathPhys = "{U. S. S. R.} Comput. Math. and Math. Phys." }
+ @String{VLSICompSys = "Journal of {VLSI} and Computer Systems" }
+ @String{VLSICompSys = "J. {VLSI} Comput. Syst." }
+ @String{ZAngewMathMech = "Zeitschrift fur Angewandte Mathematik und
+     Mechanik" }
+ @String{ZAngewMathMech = "Z. Angew. Math. Mech." }
+ @String{ZAngewMathPhys = "Zeitschrift fur Angewandte Mathematik und Physik" }
+ @String{ZAngewMathPhys = "Z. Angew. Math. Phys." }
+
+% Publishers % ================================================= |
+
+ @String{Academic = "Academic Press" }
+ @String{ACMPress = "{ACM} Press" }
+ @String{AdamHilger = "Adam Hilger" }
+ @String{AddisonWesley = "Addison-Wesley" }
+ @String{AllynBacon = "Allyn and Bacon" }
+ @String{AMS = "American Mathematical Society" }
+ @String{Birkhauser = "Birkha{\"u}ser" }
+ @String{CambridgePress = "Cambridge University Press" }
+ @String{Chelsea = "Chelsea" }
+ @String{ClaredonPress = "Claredon Press" }
+ @String{DoverPub = "Dover Publications" }
+ @String{Eyolles = "Eyolles" }
+ @String{HoltRinehartWinston = "Holt, Rinehart and Winston" }
+ @String{Interscience = "Interscience" }
+ @String{JohnsHopkinsPress = "The Johns Hopkins University Press" }
+ @String{JohnWileySons = "John Wiley and Sons" }
+ @String{Macmillan = "Macmillan" }
+ @String{MathWorks = "The Math Works Inc." }
+ @String{McGrawHill = "McGraw-Hill" }
+ @String{NatBurStd = "National Bureau of Standards" }
+ @String{NorthHolland = "North-Holland" }
+ @String{OxfordPress = "Oxford University Press" }  %address Oxford or London?
+ @String{PergamonPress = "Pergamon Press" }
+ @String{PlenumPress = "Plenum Press" }
+ @String{PrenticeHall = "Prentice-Hall" }
+ @String{SIAMPub = "{SIAM} Publications" }
+ @String{Springer = "Springer-Verlag" }
+ @String{TexasPress = "University of Texas Press" }
+ @String{VanNostrand = "Van Nostrand" }
+ @String{WHFreeman = "W. H. Freeman and Co." }
+ 
+
+
+
+@inproceedings{lmbench,
+ author = {McVoy, Larry and Staelin, Carl},
+ title = {{Lmbench: Portable Tools for Performance Analysis}},
+ booktitle = {Proceedings of the Annual Conference on USENIX Annual Technical Conference},
+ series = {{(ATEC)}},
+ year = {1996},} 
+
+@Inbook{maurice,
+author="Maurice, Cl{\'e}mentine
+and Le Scouarnec, Nicolas
+and Neumann, Christoph
+and Heen, Olivier
+and Francillon, Aur{\'e}lien",
+editor="Bos, Herbert
+and Monrose, Fabian
+and Blanc, Gregory",
+title="Reverse Engineering Intel Last-Level Cache Complex Addressing
+Using Performance Counters",
+bookTitle="Research in Attacks, Intrusions, and Defenses: 18th
+International Symposium, RAID, Kyoto, Japan.
+Proceedings",
+year="2015",
+
+}
+
+
+@INPROCEEDINGS{nvmain, 
+author={M. Poremba and Y. Xie}, 
+booktitle={2012 IEEE Computer Society Annual Symposium on VLSI}, 
+title={NVMain: An Architectural-Level Main Memory Simulator for Emerging Non-volatile Memories}, 
+year={2012}, 
+}
+
+@INPROCEEDINGS{newtoshiba4gb, 
+author={K. Rho and K. Tsuchida and D. Kim and Y. Shirai and J. Bae and T. Inaba and H. Noro and H. Moon and S. Chung and K. Sunouchi and J. Park and K. Park and A. Yamamoto and S. Chung and H. Kim and H. Oyamatsu and J. Oh}, 
+booktitle={2017 IEEE International Solid-State Circuits Conference (ISSCC)}, 
+title={{23.5 A 4Gb LPDDR2 STT-MRAM with compact 9F2 1T1MTJ cell and hierarchical bitline architecture}}, 
+year={2017},}
+
+@article{petar,
+ author = {Radojkovi\'{c}, Petar and Girbal, Sylvain and Grasset, Arnaud and Qui\~{n}ones, Eduardo and Yehia, Sami and Cazorla, Francisco J.},
+ title = {On the Evaluation of the Impact of Shared Resources in Multithreaded COTS Processors in Time-critical Environments},
+ journal = {ACM Trans. Archit. Code Optim.},
+ year = {2012},
+
+}
+
+@ARTICLE{nvsim, 
+author={X. Dong and C. Xu and Y. Xie and N. P. Jouppi}, 
+journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems}, 
+title={{NVSim: A Circuit-Level Performance, Energy, and Area Model for Emerging Nonvolatile Memory}},
+volume={31}, 
+number={7}, 
+pages={994-1007},  
+year={2012}, 
+}
+
+@inproceedings{wang,
+ author = {Wang, Jue and Dong, Xiangyu and Xie, Yuan},
+ title = {{Enabling High-performance LPDDRx-compatible MRAM}},
+ series = {ISLPED},
+ year={2014}
+} 
+
+
+
+@INPROCEEDINGS{jiang, 
+author={Lei Jiang and Wujie Wen and D. Wang and L. Duan}, 
+booktitle={21st Asia and South Pacific Design Automation Conference (ASP-DAC)}, 
+title={{Improving read performance of STT-MRAM based main memories through Smash Read and Flexible Read}}, 
+year={2016}, 
+}
+
+
+
+
+@ARTICLE{dramsim, 
+author={P. Rosenfeld and E. Cooper-Balis and B. Jacob}, 
+journal={IEEE Computer Architecture Letters}, 
+title={{DRAMSim2: A Cycle Accurate Memory System Simulator}}, 
+year={2011}, 
+}
+
+@article{spec,
+ author = {Henning, John L.},
+ title = {{SPEC CPU2006 Benchmark Descriptions}},
+ journal = {SIGARCH Comput. Archit. News},
+ issue_date = {September 2006},
+ year = {2006},
+
+} 
+
+@inproceedings{ZSIM,
+ author = {Sanchez, Daniel and Kozyrakis, Christos},
+ title = {ZSim: Fast and Accurate Microarchitectural Simulation of Thousand-core Systems},
+ booktitle = {Proceedings of the 40th Annual International Symposium on Computer Architecture},
+ series = {ISCA},
+ year = {2013},
+
+} 
+
+
+
+
+@inproceedings{kazi,
+ author = {Asifuzzaman, Kazi and Pavlovic, Milan and Radulovic, Milan and Zaragoza, David and Kwon, Ohseong and Ryoo, Kyung-Chang and Radojkovi\'{c}, Petar},
+ title = {{Performance Impact of a Slower Main Memory: A Case Study of STT-MRAM in HPC}},
+ booktitle = {{Proceedings of the Second International Symposium on Memory Systems}},
+ series = {{(MEMSYS)}},
+ year = {2016},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5%%%
+
+@electronic{intel_ark,
+  title         = "Intel Product Specification site",
+  url           = "https://ark.intel.com/",
+
+  key           = "Intel Ark"
+}
+
+
+@article{spec2006,
+ author = {Henning, John L.},
+ title = {SPEC CPU2006 Benchmark Descriptions},
+ journal = {SIGARCH Comput. Archit. News},
+ month = {September},
+ year = {2006},
+} 
+
+
+@electronic{spec2006-electronic,
+  title         = "Standard Performance Evaluation Corporation 2006 ",
+  url           = "https://www.spec.org/benchmarks.html",
+  key           = "SPEC CPU2006"
+}
+
+
+@electronic{ZSimCode,
+  title         = "Zsim GitHub site",
+  url           = "https://github.com/s5z/zsim",
+
+  key           = "ZSim Github"
+}
+
+@electronic{Top500MainSite,
+  title         = "Top 500 Supercomputer sites",
+  url           = "https://www.top500.org/",
+
+  key           = "Top500 Main site"
+}
+
+
+@InProceedings{ZSim-complete-13,
+  author                   = {Sanchez, Daniel and Kozyrakis, Christos},
+  title                    = {{ZSim: Fast and Accurate Microarchitectural Simulation of Thousand-Core Systems}},
+  Booktitle                = {{ISCA}},
+  Year                     = {2013}  
+}
+
+@InProceedings{ZSim-13,
+  author                   = {Sanchez, Daniel and Kozyrakis, Christos},
+  title                    = {{ZSim: Fast and Accurate Microarchitectural Simulation of Thousand-Core Systems}},
+  Booktitle                = {ISCA},
+  Month                    = {June},
+  Year                     = {2013}
+  
+}
+
+
+@ARTICLE{NVMain-15,
+author={M. Poremba and T. Zhang and Y. Xie},
+journal={{IEEE CAL}},
+title={NVMain 2.0: A User-Friendly Memory Simulator to Model (Non-)Volatile Memory Systems},
+Year = {2015}
+}
+
+
+@ARTICLE{NVMain-complete-15,
+author={M. Poremba and T. Zhang and Y. Xie},
+journal=IEEE_J_CAL,
+title={NVMain 2.0: A User-Friendly Memory Simulator to Model (Non-)Volatile Memory Systems},
+year={2015},
+volume={14},
+number={2},
+pages={140-143},
+keywords={DRAM chips;cache storage;memory architecture;phase change memories;user interfaces;DRAM memory systems;NVMain 2.0;PCRAM;ReRAM;STT-RAM;commodity DRAM;die-stacked DRAM cache;flexible memory simulator;flexible user interface;memory technology;multilevel cells;nonvolatile memory system;user-friendly memory simulator;Computational modeling;Computer architecture;Memory management;Nonvolatile memory;Phase change random access memory;Memory architecture, random access memory, nonvolatile memory, phase change memory, SDRAM},
+doi={10.1109/LCA.2015.2402435},
+ISSN={1556-6056},
+month={July},
+}
+
+@Article{DRAMSim2-11,
+  Title                    = {DRAMSim2: A Cycle Accurate Memory System Simulator},
+  Author                   = {Rosenfeld, Paul and Cooper-Balis, Elliott and Jacob, Bruce},
+  Journal                  = {{IEEE CAL}},
+  Year                     = {2011}
+
+}
+
+@Article{DRAMSim2-complete-11,
+  Title                    = {DRAMSim2: A Cycle Accurate Memory System Simulator},
+  Author                   = {Rosenfeld, Paul and Cooper-Balis, Elliott and Jacob, Bruce},
+  Journal                  = IEEE_J_CAL,
+  Year                     = {2011},
+
+  Month                    = {jan},
+  Number                   = {1},
+  Pages                    = {16--19},
+  Volume                   = {10},
+
+  Acmid                    = {1999216},
+  Address                  = {Washington, DC, USA},
+  Doi                      = {10.1109/L-CA.2011.4},
+  ISSN                     = {1556-6056},
+  Issue_date               = {January 2011},
+  Keywords                 = {DRAM, Simulation, Primary memory},
+  Numpages                 = {4},
+  Publisher                = {IEEE Computer Society},
+  Url                      = {http://dx.doi.org/10.1109/L-CA.2011.4}
+}
+
+
+@manual{inteloptimize,
+  Title                    = {{Intel\textsuperscript{\textregistered} 64 and IA-32 Architectures Optimization Reference Manual}},
+  organization             = {{Intel Corporation}},
+  Year                     = {2016},
+  Month                    = {June},
+  Number                   = {248966-033},
+
+
+}
+
+@manual{intelsdm,
+  Title                    = {{Intel\textsuperscript{\textregistered} 64 and IA-32 Architectures Software Developer’s Manual: Combined Volumes}},
+  organization             = {{Intel Corporation}},
+  Year                     = {2016},
+  Month                    = {December},
+  Number                   = {325462-061US},
+}
+
+@article{radojkovic_evaluation_2012,
+	title = {On the evaluation of the impact of shared resources in multithreaded {COTS} processors in time-critical environments},
+	volume = {8},
+	issn = {15443566},
+	url = {http://dl.acm.org/citation.cfm?doid=2086696.2086713},
+	doi = {10.1145/2086696.2086713},
+	language = {en},
+	number = {4},
+	urldate = {2017-05-21},
+	journal = {ACM Transactions on Architecture and Code Optimization},
+	author = {Radojković, Petar and Girbal, Sylvain and Grasset, Arnaud and Quiñones, Eduardo and Yehia, Sami and Cazorla, Francisco J.},
+	month = jan,
+	year = {2012},
+	pages = {1--25}
+}
+
+@inproceedings{Maurice2015RAID-complete,
+  title        = {{Reverse Engineering Intel Last-Level Cache Complex Addressing Using Performance Counters}},
+  author       = {Clémentine Maurice and Le Scouarnec, Nicolas and Christoph Neumann and Olivier Heen and Aurélien Francillon},
+  booktitle    = {Proceedings of the 18th International Symposium on Research in Attacks, Intrusions and Defenses (RAID'15)},
+  year         = {2015},
+  month        = {November},
+  affiliations = {Technicolor,Eurecom},
+}
+
+@inproceedings{Maurice2015RAID,
+  title        = {{Reverse Engineering Intel Last-Level Cache Complex Addressing Using Performance Counters}},
+  author       = {Clémentine Maurice and Le Scouarnec, Nicolas and Christoph Neumann and Olivier Heen and Aurélien Francillon},
+  booktitle    = {Proc. of the 18th Int. Symp. on Res. in Attacks, Intrusions and Defenses (RAID'15)},
+  year         = {2015},
+  month        = {November},
+  affiliations = {Technicolor,Eurecom},
+}
+
+@Article{Carlson:2014,
+  Title                    = {An Evaluation of High-Level Mechanistic Core Models},
+  Author                   = {Trevor E. Carlson and Wim Heirman and Stijn Eyerman and Ibrahim Hur and Lieven Eeckhout},
+  Journal                  = {ACM Transactions on Architecture and Code Optimization (TACO)},
+  Year                     = {2014}
+}
+ 
+@Article{Binkert:2011,
+  Title                    = {{The GEM5 Simulator}},
+  Author                   = {Nathan Binkert et al.},
+  Journal                  = {ACM SIGARCH Computer Architecture News},
+  Year                     = {2011}
+}
+
+@Article{Rico:2012,
+  Title                    = {{On the Simulation of Large-Scale Architectures Using Multiple Application Abstraction Levels}},
+  Author                   = {Alejandro Rico and Felipe Cabarcas and Carlos Villavieja and Milan Pavlovic and Augusto Vega and Yoav Etsion and Alex Ramirez and Mateo Valero},
+  Journal                  = {ACM Transactions on Architecture and Code Optimization (TACO)},
+  Year                     = {2012}
+}
+
+@InProceedings{Patel:2011,
+  Title                    = {{MARSSx86: A Full System Simulator for x86 CPUs}},
+  Author                   = {Patel, Avadh and Afram, Furat and Chen, Shunfei and Ghose, Kanad},
+  Booktitle                = {Design Automation Conference (DAC)},
+  Year                     = {2011}
+}
+
+@InProceedings{Kim:2013,
+  Title                    = {{Memory-centric System Interconnect Design with Hybrid Memory Cubes}},
+  Author                   = {Gwangsun Kim and John Kim and Jung Ho Ahn and Jaeha Kim},
+  Booktitle                = {Proceedings of the 22nd international conference on Parallel architectures and compilation techniques (PACT)},
+  Year                     = {2013}
+}
+
+@inproceedings{yasin_top-down_2014,
+	title = {A {Top}-{Down} method for performance analysis and counters architecture},
+	doi = {10.1109/ISPASS.2014.6844459},
+	booktitle = {2014 {IEEE} {International} {Symposium} on {Performance} {Analysis} of {Systems} and {Software} ({ISPASS})},
+	author = {Yasin, A.},
+	month = mar,
+	year = {2014},
+	pages = {35--44},
+}
+
+@inproceedings{akram_x86_2016,
+	title = {x86 computer architecture simulators: {A} comparative study},
+	shorttitle = {\#x00D7;86 computer architecture simulators},
+	doi = {10.1109/ICCD.2016.7753351},
+	booktitle = {2016 {IEEE} 34th {International} {Conference} on {Computer} {Design} ({ICCD})},
+	author = {Akram, A. and Sawalha, L.},
+  year = 2016
+}
+% 	year = {2016},
+% 	pages = {638--645}
+% 	month = oct},
+% 	keywords = {Computational modeling, computer architecture, Computer architecture, Out of order, Benchmark testing, Sniper, Pipelines, ×86 computer architecture simulator, Computers, flexibility, gem5, human computer interaction, level of details, Multi2sim, PTLsim, Timing, user friendliness},
+% 	file = {07753351.pdf:/home/rsv/BSC/Documents/Papers/Software/07753351.pdf:application/pdf;IEEE Xplore Abstract Record:/home/rsv/.zotero/zotero/0sfdddwb.default/zotero/storage/YQGJ9CKK/7753351.html:text/html}
+% 	abstract = {The significance of computer architecture simulators in advancing computer architecture research is widely acknowledged. Computer architects have developed numerous simulators in the past few decades and their number continues to rise. This paper explores different simulation techniques and surveys many ×86 simulators. Comparing simulators with each other and validating their correctness has been a challenging task. In this paper, we compare and contrast ×86 simulators in terms of flexibility, level of details, user friendliness and simulation models. In addition, we measure the experimental error and compare the speed of four contemporary ×86 simulators: gem5, Multi2sim, PTLsim and Sniper. We also discuss the strengths and limitations of these simulators. We believe that this paper provides insights into different simulation strategies and aims to help computer architects understand the differences among existing simulation tools.},
+	
+	
+@inproceedings{verdejo_microbenchmarks_2017,
+	title = {Microbenchmarks for Detailed Validation and Tuning of Hardware Simulators},
+	doi = {10.1109/HPCS.2017.135},
+	booktitle = {2017 International Conference on High Performance Computing Simulation (HPCS)},
+	author = {Verdejo, R. S. and Radojković, P.},
+		month = {jul},
+	year = {2017},
+}	
+
+@inproceedings{yun_memguard_2013,
+	title = {{MemGuard}: {Memory} bandwidth reservation system for efficient performance isolation in multi-core platforms},
+	shorttitle = {{MemGuard}},
+	doi = {10.1109/RTAS.2013.6531079},
+	booktitle = {2013 {IEEE} 19th {Real}-{Time} and {Embedded} {Technology} and {Applications} {Symposium} ({RTAS})},
+	author = {Yun, H. and Yao, G. and Pellizzoni, R. and Caccamo, M. and Sha, L.},
+	month = {apr},
+	year = {2013},
+}
+
+
+
+
+@inproceedings{McVoy:1996:LPT:1268299.1268322,
+ author = {McVoy, Larry and Staelin, Carl},
+ title = {Lmbench: Portable Tools for Performance Analysis},
+ booktitle = {Proceedings of the 1996 Annual Conference on USENIX Annual Technical Conference},
+ series = {ATEC '96},
+ year = {1996},
+ location = {San Diego, CA},
+ pages = {23--23},
+ numpages = {1},
+ url = {http://dl.acm.org.recursos.biblioteca.upc.edu/citation.cfm?id=1268299.1268322},
+ acmid = {1268322},
+ publisher = {USENIX Association},
+ address = {Berkeley, CA, USA},
+} 
+
+@INPROCEEDINGS{8035174,
+author={R. S. Verdejo and P. Radojković},
+booktitle={2017 International Conference on High Performance Computing Simulation (HPCS)},
+title={Microbenchmarks for Detailed Validation and Tuning of Hardware Simulators},
+year={2017},
+volume={},
+number={},
+pages={881-883},
+keywords={computer architecture;computer architecture research;hardware simulators;indispensable tools;microarchitectural feature;microbenchmarks;Benchmark testing;Computational modeling;Computer architecture;Hardware;Radiation detectors;Registers;Stress},
+doi={10.1109/HPCS.2017.135},
+ISSN={},
+month={July},}
+
+
+@ARTICLE{McCalpin1995,
+  author = {John D. McCalpin},
+  title = {Memory Bandwidth and Machine Balance in Current High Performance
+	Computers},
+  journal = {IEEE Computer Society Technical Committee on Computer Architecture
+	(TCCA) Newsletter},
+  year = {1995},
+  pages = {19--25},
+  month = dec,
+  abstract = {The ratio of cpu speed to memory speed in current high-performance
+	computers is growing rapidly, with significant implications for the
+	design and implementation of algorithms in scientific computing.
+	I present the results of a broad survey of memory bandwidth and machine
+	balance for a large variety of current computers, including uniprocessors,
+	vector processors, shared-memory systems, and districuted-memory. The results are analyzed in terms of the sustainable data
+	transfer rates for uncached unit-stride vector operation for each
+	machine, and for each class.},
+  pdf = {http://tab.computer.org/tcca/NEWS/DEC95/dec95_mccalpin.ps}
+}
+
+@electronic{ramspeed,
+  author = { Rhett M. Hollander, Paul V. Bolotoff},
+  title = {ramspeed},
+  key           = "Alasir. Ramspeed",
+  year = 2002,
+  url           = "http://alasir.com/software/ramspeed/"
+}
+
+@electronic{intelsmlc,
+  author = {Vish Viswanathan, Karthik Kumar, Thomas Willhalm, Patrick Lu, Blazej Filipiak, Sri Sakthivelu},
+  title = {Intel MLC},
+  key   = "mlc",
+  year = 2018,
+  url  = "https://software.intel.com/en-us/articles/intelr-memory-latency-checker"
+}
+
+
+https://software.intel.com/en-us/articles/intelr-memory-latency-checker
+
+% An example of a IEEEtran control entry which can change some IEEEtran.bst
+% settings. An entry like this must be cited via \bstctlcite{} command
+% before the first real \cite{}. The same entry key cannot be called twice
+% (just like multiple \cite{} of the same entry key place only one entry
+% in the bibliography.)
+% The available control fields are:
+%
+% CTLuse_article_number
+% "no" turns off the display of the number for articles.
+% "yes" enables
+%
+% CTLuse_paper
+% "no" turns off the display of the paper and type fields in inproceedings.
+% "yes" enables
+%
+% CTLuse_forced_etal 
+% "no" turns off the forced use of "et al."
+% "yes" enables
+%
+% CTLmax_names_forced_etal
+% The maximum number of names that can be present beyond which an "et al."
+% usage is forced. Be sure that CTLnames_show_etal (below)
+% is not greater than this value!
+%
+% CTLnames_show_etal
+% The number of names that will be shown with a forced "et al.".
+% Must be less than or equal to CTLmax_names_forced_etal
+%
+% CTLuse_alt_spacing 
+% "no" turns off the alternate interword spacing for entries with URLs.
+% "yes" enables
+%
+% CTLalt_stretch_factor
+% If alternate interword spacing for entries with URLs is enabled, this is
+% the interword spacing stretch factor that will be used. For example, the
+% default "4" here means that the interword spacing in entries with URLs can
+% stretch to four times normal. Does not have to be an integer.
+%
+% CTLdash_repeated_names
+% "no" turns off the "dashification" of repeated (i.e., identical to those
+% of the previous entry) names. IEEE normally does this.
+% "yes" enables
+%
+% CTLname_format_string
+% The name format control string as explained in the BibTeX style hacking
+% guide.
+% IEEE style "{f.~}{vv~}{ll}{, jj}" is the default,
+%
+% CTLname_latex_cmd
+% A LaTeX command that each name will be fed to (e.g., "\textsc").
+% Leave empty if no special font is desired for the names.
+% The default is empty.
+%
+% CTLname_url_prefix
+% The prefix text used before URLs.
+% The default is "[Online]. Available:" A space will be inserted after this
+% text. If this space is not wanted, just use \relax at the end of the
+% prefix text.
+%
+%
+% Those fields that are not to be changed can be left out.
+@IEEEtranBSTCTL{hpcs2017:BSTcontrol,
+   CTLuse_article_number     = "yes",
+   CTLuse_paper              = "yes",
+   CTLuse_forced_etal        = "yes",
+   CTLmax_names_forced_etal  = "2",
+   CTLnames_show_etal        = "1",
+   CTLuse_alt_spacing        = "yes",
+   CTLalt_stretch_factor     = "4",
+   CTLdash_repeated_names    = "yes",
+   CTLname_format_string     = "{f.~}{vv~}{ll}{, jj}",
+   CTLname_latex_cmd         = "",
+   CTLname_url_prefix        = "",
+   CTLdash_repeated_names = {no}
+ }
+

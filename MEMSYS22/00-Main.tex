@@ -1,0 +1,142 @@
+
+%\documentclass[10pt,journal,compsoc]{IEEEtran}
+\documentclass[format=sigconf, review=false, anonymous=false]{acmart}
+%\documentclass[acmlarge]{acmart}
+%\usepackage{cite}
+%\usepackage[pdftex]{graphicx}
+%\usepackage[table]{xcolor}
+\usepackage{booktabs}
+%\usepackage{float}
+%\usepackage{subfig}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage{tabularx}	
+\usepackage{balance}
+\usepackage{makecell}
+\usepackage{array}
+\usepackage{tablefootnote}
+\usepackage{footnote}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{float}
+
+
+\fancyfoot{}
+
+
+\setcopyright{acmcopyright}
+%\copyrightyear{2019}
+%\acmYear{2019}
+%\acmConference[MEMSYS '19]{Proceedings of the International Symposium on Memory Systems}{September 30-October 3, 2019}{Washington, DC, USA}
+%\acmBooktitle{Proceedings of the International Symposium on Memory Systems (MEMSYS '19), September 30-October 3, 2019, Washington, DC, USA}
+%\acmPrice{15.00}
+%\acmDOI{10.1145/3357526.3357531}
+%\acmISBN{978-1-4503-7206-0/19/09}
+
+\settopmatter{printacmref=false} % Removes citation information below abstract
+\renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with conference information in first column
+\pagestyle{plain} % removes running headers
+
+\def\fixme#1{\bgroup \color{red}{[{#1}]}\egroup}
+\def\pr#1{\bgroup \color{blue}{[PR,{#1}]}\egroup}
+
+\def\ka#1{\bgroup \color{purple}{[KA,{#1}]}\egroup}
+
+\begin{document}
+
+\title{Evaluating DOE HPC Kernels for Processing in Memory}
+
+
+\author{Kazi Asifuzzaman}
+\affiliation{%
+  \institution{Oak Ridge National Laboratory, USA}}
+
+\author{Monil Mohammad Alaul Haque}
+\affiliation{%
+  \institution{Oak Ridge National Laboratory, USA}}
+
+\author{Frank Liu}
+\affiliation{%
+  \institution{Oak Ridge National Laboratory, USA}}
+
+\author{Jeffrey S Vetter}
+\affiliation{%
+  \institution{Oak Ridge National Laboratory, USA}}
+
+
+
+\renewcommand{\shortauthors}{}
+
+\begin{CCSXML}
+
+<ccs2012>
+<concept>
+<concept_id>10010520.10010575.10010580</concept_id>
+<concept_desc>Computer systems organization~Processors and memory architectures</concept_desc>
+<concept_significance>300</concept_significance>
+</concept>
+\end{CCSXML}
+
+\ccsdesc[300]{Computer systems organization~Processors and memory architectures}
+
+%\printccsdesc
+
+\begin{abstract}
+	\input{05-Abstract.tex} 
+\end{abstract}
+
+\keywords{Processing in Memory, High Performance Computing}
+
+
+
+
+
+
+\maketitle
+\thispagestyle{empty}
+
+\section{Introduction}
+\input{20-Introduction.tex}  
+
+\section{Background}
+\input{30-Background.tex}  
+
+\section{Workload Charecterization of DOE HPC applications}
+\label{sec:workload}
+\input{40-Workload.tex}  
+
+\section{Experimental environment}
+\label{sec:Experimental}
+\input{50-Experimental.tex}
+
+\section{Evaluation}
+\label{sec:evaluation}
+\input{60-Results.tex}
+
+\section{Related work}
+\label{sec:RelatedWork}
+\input{80-Related_work.tex} 
+
+\section{Conclusions}
+\label{sec:Conclusions}
+\input{90-Conclusions.tex} 
+
+\section{Acknowledgment}
+
+This work was supported by ....
+
+
+\balance
+%\bibliographystyle{ACM-Reference-Format}
+\bibliographystyle{unsrt}
+%\bibliographystyle{acm}
+%\bibliographystyle{agsm}
+%\bibliographystyle{abbrv}
+%\bibliographystyle{IEEEtranS}
+\bibliography{RTST_paper} 
+
+
+\end{document}
+
+
+

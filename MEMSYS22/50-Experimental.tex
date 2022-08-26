@@ -1,0 +1,124 @@
+
+In this section we describe the target hardware platform, simulator infrastructure, and benchmarks used to carry out the experiments.
+
+
+
+% \begin{savenotes}
+%\begin{table}[t!]
+%%\vspace{-0.5cm}
+%%\normalsize
+%\small
+%\caption{DRAM and STT-MRAM parameters associated with row operation (DDR2-667 cycles)}
+%%\begin{center}
+%    
+%    \begin{tabularx}{\columnwidth}{@{}lXrrrr}
+%\toprule
+%    % \hline
+%    Timing \\Parameters & Description & \tiny{DRAM} & \tiny{ST-1.2} & \tiny{ST-1.5} & \tiny{ST-2.0}\\
+%\midrule
+% tRCD & \mbox{Row to column} \mbox{command delay} & 5 & 6 & 8 & 10\\
+% tRP & Row precharge & 5 & 6 & 8 & 10\\
+% tFAW & Four row \mbox{activation window} & 13 & 16 & 20 & 26\\
+% tRRD & Row to Row \mbox{activation delay} & 3 & 4 & 5 & 6\\
+% tRFC & \mbox{Refresh cycle time} & 43 & 0 & 0 & 0\\
+%\bottomrule
+%   \end{tabularx}
+%
+%\label{table:ROW}
+%\end{table}
+%   \end{savenotes}
+%
+%
+%
+%
+%% 
+%
+%\begin{table}[t!]
+%%\normalsize
+%\small
+%\caption{Next Generation Microprocessor~(NGMP): Main features}
+%%\begin{center}
+%    \begin{tabularx}{\columnwidth}{lXr}
+%\toprule
+%    % \hline
+%    Feature & Description  \\
+%\midrule
+%Cores & 4  \\
+%ISA & SPARC v8 \\
+%Pipeline stages & Fetch, decode, register, execute, memory, exceptions, commit \\
+%Core Frequency   & 150 MHz \\ 
+%Superscalar & No  \\
+%Out-of-Order & No  \\
+%\midrule
+%L1 D-cache & Private (per-core) \\
+%           & 16KiB, 32 byte/line, 4-way\\
+%	         & Write-through, Write no-allocate \\
+%L1 I-cache & Private (per-core) \\
+%           & 16KiB, 32 byte/line, 4-way \\
+%L2 cache   & Shared: 4 cores \\
+%           & Unified: Data and Instructions  \\
+%           & 256KiB, 32 byte/line, 4-way \\ 
+%					 & Copy-back, Write-allocate \\
+%\midrule
+%FPU & Double precission IEEE-754 \\
+%\bottomrule
+%   \end{tabularx}
+%\label{table:NGMP}
+%%\vspace{-4mm}
+%\end{table}
+%
+%
+%
+%\begin{figure}[t!]
+%\centering
+%\includegraphics[width=\columnwidth]{figure/pWCET.png}
+%\caption{
+%%\textbf{X-axis:} pWCET: Probabilistic worst case execution time (pWCET); 
+%%\textbf{Y-axis:} Exceedance probability; 
+%%\textbf{Caption:} 
+%pWCET distribution: Probability (Y-axis) that the application execution
+%time (in any given run) exceeds the corresponding time on the X-axis.
+%	In this example, the pWCET estimate (7ms) is exceeded with a probability of $10^{-12}$.}
+%\label{fig:pWCET}
+%%\vspace{-5mm}
+%\end{figure}
+%
+%
+%\begin{figure}[t!]
+%\centering
+%\includegraphics[width=\columnwidth]{figure/MBPTA-CV.png}
+%\caption{
+%Schematic of the MBPTA application process}
+%\label{fig:MBPTA-CV}
+%%\vspace{-5mm}
+%\end{figure}
+%
+%
+%
+%
+%
+%\subsection{Benchmarks}
+%
+%\begin{table}[t!]
+%%\normalsize
+%\small
+%\caption{Benchmarks used in the study}
+%%\begin{center}
+%    \begin{tabularx}{\columnwidth}{lXrrrr}
+%\toprule
+%    % \hline
+%    Suite & Benchmarks & Domain \\
+%    
+%\midrule
+%ESA Applications & obdp, debie & Space\\
+%\midrule
+%EEMBC Autobench & a2time01, aifftr01, aifirf01, aiifft01, basefp01, bitmnp01, cacheb01, canrdr01, idctrn01, iirflt01, matrix01, pntrch01, puwmod01, rspeed01, tblook01, ttsprk01 & Automotive\\
+%\midrule
+%Mediabench & mesa.texgen, mesa.mipmap, epic.decode, mesa.osdemo & Media \\
+%\bottomrule
+%   \end{tabularx}
+%\label{table:benchmark}
+%\end{table}
+%  
+
+
