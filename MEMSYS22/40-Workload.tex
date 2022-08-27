@@ -23,21 +23,21 @@ The main computation function in miniAMR is the $stencil\_calc$  which is a memo
 \includegraphics[width=1\linewidth]{MEMSYS22/figures/roofline/miniamr.png}
 \end{center}
   \vspace{-0.1in}
-\caption{Positioning of the main compute kernel of MiniAMR app in Roofline. Here the red circle indicates the $stencil_calc$ function }
+\caption{Positioning of the main compute kernel of MiniAMR app in Roofline. Here the red circle indicates the $stencil\_calc$ function }
 \label{fig:roof-miniamr}
 \vspace{-0.2in}
 \end{figure}
 
 \subsection{SimpleMOC}
-The main computation function in SimpleMOC is the $attenuate\_fluxes$  which is a memory bound kernel (see Fig.~\ref{fig:roof-SimpleMOC}). 
+The main computation function in SimpleMOC is the $attenuate\_fluxes$  which is a memory bound kernel (see Fig.~\ref{fig:roof-simplemoc}). 
 
 \begin{figure}[h]%[bp]
 \begin{center}
-\includegraphics[width=1\linewidth]{MEMSYS22/figures/roofline/miniamr.png}
+\includegraphics[width=1\linewidth]{MEMSYS22/figures/roofline/simplesoc.png}
 \end{center}
   \vspace{-0.1in}
-\caption{Positioning of the main compute kernel of MiniAMR app in Roofline. Here the red circle indicates the $stencil_calc$ function }
-\label{fig:roof-miniamr}
+\caption{Positioning of the main compute kernel of MiniAMR app in Roofline. Here the red circle indicates the $attenuate\_fluxes$ function }
+\label{fig:roof-simplemoc}
 \vspace{-0.2in}
 \end{figure}
 
