@@ -41,6 +41,21 @@ The main computation function in SimpleMOC is the $attenuate\_fluxes$  which is 
 \vspace{-0.2in}
 \end{figure}
 
+%./PathFinder.x -x ../data/scaleData/1kx750.adj_list
+\subsection{PathFinder}
+The main computation function in PathFinder is the $findAndRecordAllPaths$  which is a memory bound kernel (see Fig.~\ref{fig:roof-simplemoc}). 
+
+\begin{figure}[h]%[bp]
+\begin{center}
+\includegraphics[width=1\linewidth]{MEMSYS22/figures/roofline/}
+\end{center}
+  \vspace{-0.1in}
+\caption{Positioning of the main compute kernel of MiniAMR app in Roofline. Here the red circle indicates the $findAndRecordAllPaths$ function }
+\label{fig:roof-pathfinder}
+\vspace{-0.2in}
+\end{figure}
+
+
 
 %\begin{figure}[t!]
 %\centering
