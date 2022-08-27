@@ -15,6 +15,33 @@ The main function in Jacobi is the $stencil\_jacobi$ function which is a memory 
 \vspace{-0.2in}
 \end{figure}
 
+\subsection{MiniAMR}
+The main computation function in miniAMR is the $stencil\_calc$  which is a memory bound kernel (see Fig.~\ref{fig:roof-miniamr}). 
+
+\begin{figure}[h]%[bp]
+\begin{center}
+\includegraphics[width=1\linewidth]{MEMSYS22/figures/roofline/miniamr.png}
+\end{center}
+  \vspace{-0.1in}
+\caption{Positioning of the main compute kernel of MiniAMR app in Roofline. Here the red circle indicates the $stencil_calc$ function }
+\label{fig:roof-miniamr}
+\vspace{-0.2in}
+\end{figure}
+
+\subsection{SimpleMOC}
+The main computation function in SimpleMOC is the $attenuate\_fluxes$  which is a memory bound kernel (see Fig.~\ref{fig:roof-SimpleMOC}). 
+
+\begin{figure}[h]%[bp]
+\begin{center}
+\includegraphics[width=1\linewidth]{MEMSYS22/figures/roofline/miniamr.png}
+\end{center}
+  \vspace{-0.1in}
+\caption{Positioning of the main compute kernel of MiniAMR app in Roofline. Here the red circle indicates the $stencil_calc$ function }
+\label{fig:roof-miniamr}
+\vspace{-0.2in}
+\end{figure}
+
+
 %\begin{figure}[t!]
 %\centering
 %\includegraphics[width=70mm, height= 50mm]{figure/pmtj.pdf}
