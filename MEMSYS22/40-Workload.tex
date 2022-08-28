@@ -2,6 +2,7 @@
 -	Roofline model \\
 -	Identifying functions that are memory intensive \\
 
+
 \subsection{Jacobi}
 The main function in Jacobi is the $stencil\_jacobi$ function which is a memory bound kernel (see Fig.~\ref{fig:roof-jacobi}). 
 
@@ -47,7 +48,7 @@ The main computation function in PathFinder is the $findAndRecordAllPaths$  whic
 
 \begin{figure}[h]%[bp]
 \begin{center}
-\includegraphics[width=1\linewidth]{MEMSYS22/figures/roofline/}
+\includegraphics[width=1\linewidth]{MEMSYS22/figures/roofline/pathfinder.png}
 \end{center}
   \vspace{-0.1in}
 \caption{Positioning of the main compute kernel of MiniAMR app in Roofline. Here the red circle indicates the $findAndRecordAllPaths$ function }
@@ -88,28 +89,29 @@ The main computation function in PathFinder is the $findAndRecordAllPaths$  whic
 
 %
 %
-%\begin{table}[t!]
-%%\normalsize
-%\small
-%\caption{\mbox{DRAM vs STT-MRAM for embedded real-time systems}}
-%\centering
-%%    \begin{tabularx}{\columnwidth}{lcc}
-%    \begin{tabularx}{7.2cm}{lcc}
-%\toprule
-%    % \hline
-%    Feature & DRAM & STT-MRAM \\
-%\midrule
-%Radiation-hard & - & +++ \\
-%Standby power  & - & +++ \\
-%Temperature tolerance & + & +++ \\
-%Storage capacity & ++ & ++ \\
-%Access speed   & +++ & ++ \\
-%Endurance      & ++ & +++ \\
-%\bottomrule
-%   \end{tabularx}
-%\label{table:compare}
-%%\vspace{-0.5cm}
-%\end{table}
+\begin{table}[t!]
+%\normalsize
+\small
+\caption{\mbox{HPC Benchmarks and their Memory-Bound/Critical Kernel/Functions identified}}
+\centering
+%    \begin{tabularx}{\columnwidth}{lcc}
+    \begin{tabularx}{7.2cm}{lcc}
+\toprule
+    % \hline
+    Bechmarks & function & memory/compute bound \\
+\midrule
+jacobi & - & +++ \\
+laplace  & - & +++ \\
+lulesh & + & +++ \\
+simplemoc & ++ & ++ \\
+pathfinder   & +++ & ++ \\
+xsbench      & ++ & +++ \\
+rsbench      & ++ & +++ \\
+\bottomrule
+   \end{tabularx}
+\label{table:compare}
+%\vspace{-0.5cm}
+\end{table}
 %
 %
 %
