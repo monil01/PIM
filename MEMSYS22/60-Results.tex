@@ -3,35 +3,33 @@
 -	Comparison to other Special Kernels (Lulesh)
 
 
-\begin{figure}[h]%[bp]
-\begin{center}
-\includegraphics[width=1\linewidth]{MEMSYS22/figures/ip}
-\end{center}
-  \vspace{-0.1in}
-\caption{Positioning of the main compute kernel of MiniAMR app in Roofline. Here the red circle indicates the $findAndRecordAllPaths$ function }
-\label{fig:roof-pathfinder}
-\vspace{-0.2in}
+
+
+
+\begin{figure}[!th]
+ \centering
+  %\vspace*{-2.em}
+
+   \subfloat[IPC.\label{subfig-2:cades}]{
+    \includegraphics[width=1\linewidth,scale=1.0,keepaspectratio]{MEMSYS22/figures/ipc.png}
+  }
+  
+  \subfloat[MPKI.\label{subfig-2:dgx}]{
+    \includegraphics[width=1\linewidth,scale=1.0,keepaspectratio]{MEMSYS22/figures/mpki.png}
+  }
+  
+   \subfloat[LFMR.\label{subfig-2:crusher}]{
+    \includegraphics[width=1\linewidth,scale=1.0,keepaspectratio]{MEMSYS22/figures/lfmr.png}
+  }
+  
+   \vspace{-.05in}
+   \caption{Impact of PIM in different applications.
+   }
+ \vspace{-.1in}
+ \label{fig:expr:pim}
+ \vspace{-1em}
 \end{figure}
 
-\begin{figure}[h]%[bp]
-\begin{center}
-\includegraphics[width=1\linewidth]{MEMSYS22/figures/roofline/pathfinder.png}
-\end{center}
-  \vspace{-0.1in}
-\caption{Positioning of the main compute kernel of MiniAMR app in Roofline. Here the red circle indicates the $findAndRecordAllPaths$ function }
-\label{fig:roof-pathfinder}
-\vspace{-0.2in}
-\end{figure}
-
-\begin{figure}[h]%[bp]
-\begin{center}
-\includegraphics[width=1\linewidth]{MEMSYS22/figures/roofline/pathfinder.png}
-\end{center}
-  \vspace{-0.1in}
-\caption{Positioning of the main compute kernel of MiniAMR app in Roofline. Here the red circle indicates the $findAndRecordAllPaths$ function }
-\label{fig:roof-pathfinder}
-\vspace{-0.2in}
-\end{figure}
 
 
 %
