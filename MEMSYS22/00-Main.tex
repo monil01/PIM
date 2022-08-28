@@ -20,6 +20,10 @@
 \usepackage{textcomp}
 \usepackage{float}
 
+\usepackage{tikz}
+\usepackage{xcolor}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,fill,inner sep=2pt] (char) {\textcolor{white}{#1}};}}
 
 \fancyfoot{}
 
@@ -51,7 +55,7 @@
 \affiliation{%
   \institution{Oak Ridge National Laboratory, USA}}
 
-\author{Monil Mohammad Alaul Haque}
+\author{Mohammad Alaul Haque Monil}
 \affiliation{%
   \institution{Oak Ridge National Laboratory, USA}}
 

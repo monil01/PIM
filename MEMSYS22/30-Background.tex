@@ -1,18 +1,26 @@
+Processing in memory generally refers to the idea of moving some of the executions to the memory unit, when moving the data to the CPU for processing deem to take more time, which is often the case for memory intensive kernels. With various memory technologies and PIM optimization techniques present, there are several ways PIM can be adopted. Figure~\ref{fig:pimcat} shows a generic representation of a main memory DIMM module. A main memory DIMM (e.g. DDR4 DIMM) has several chips. Each each has a number of banks (e.g. 4, 8, 16) and each bank has a specified number of rows and columns which constitutes the memory array (highlighted as \circled{1} in Figure ~\ref{fig:pimcat}). Each intersection of a row and column typically represents a memory \textit{cell} which holds single bit data. When a row address is requested to be accessed, that selected row is then loaded on to the row buffer (highlighted as \circled{2}) %in Figure ~\ref{fig:pimcat}).
+
+
+
+
+
+
+
 -	PIM background \\
 -	Different types of PIM \\
 -	Which type of PIM can be beneficial for HPC \\
 
 
-%\begin{figure}[t!]
-%\centering
-%\includegraphics[width=70mm, height= 50mm]{figure/pmtj.pdf}
-%%\vspace{.5em} 
-%\caption{STT-MRAM cell}
-%%\vspace{-1.5em} 
-%\label{fig:pmtj}
-%%\vspace{-0.6cm}    
-%\end{figure}   
-%\looseness -1
+\begin{figure}[t!]
+\centering
+\includegraphics[width=\columnwidth]{MEMSYS22/figures/pimcat.png}
+%\vspace{.5em} 
+\caption{Generic representation of a Main Memory DIMM and where processing in memory can take place.}
+%\vspace{-1.5em} 
+\label{fig:pimcat}
+%\vspace{-0.6cm}    
+\end{figure}   
+\looseness -1
 
 
   
