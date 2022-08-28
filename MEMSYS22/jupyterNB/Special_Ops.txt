@@ -1,0 +1,88 @@
+jacobis_host_1.txt:Instructions: 1000000515
+jacobis_pim_1.txt:Instructions: 1000005335
+lulesh_Calctime_host_1.txt:Instructions: 83265172
+lulesh_Calctime_pim_1.txt:Instructions: 86831607
+lulesh_LagrangeElement_host_1.txt:Instructions: 1000001003
+lulesh_LagrangeElement_pim_1.txt:Instructions: 1000007489
+lulesh_LagrangeNodal_host_1.txt:Instructions: 1000002216
+lulesh_LagrangeNodal_pim_1.txt:Instructions: 1000010543
+lulesh_voluDer_host_1.txt:Instructions: 1000000752
+lulesh_voluDer_pim_1.txt:Instructions: 1000000136
+======================================
+jacobis_host_1.txt:Cycles: 554622142
+jacobis_pim_1.txt:Cycles: 572293070
+lulesh_Calctime_host_1.txt:Cycles: 44052501
+lulesh_Calctime_pim_1.txt:Cycles: 52673910
+lulesh_LagrangeElement_host_1.txt:Cycles: 600443002
+lulesh_LagrangeElement_pim_1.txt:Cycles: 707754346
+lulesh_LagrangeNodal_host_1.txt:Cycles: 582983019
+lulesh_LagrangeNodal_pim_1.txt:Cycles: 683621399
+lulesh_voluDer_host_1.txt:Cycles: 633079012
+lulesh_voluDer_pim_1.txt:Cycles: 703601414
+======================================
+jacobis_host_1.txt:IPC: 1.80303027822
+jacobis_pim_1.txt:IPC: 1.74736579459
+lulesh_Calctime_host_1.txt:IPC: 1.89013495511
+lulesh_Calctime_pim_1.txt:IPC: 1.6484746813
+lulesh_LagrangeElement_host_1.txt:IPC: 1.66543868389
+lulesh_LagrangeElement_pim_1.txt:IPC: 1.41293019909
+lulesh_LagrangeNodal_host_1.txt:IPC: 1.71531962923
+lulesh_LagrangeNodal_pim_1.txt:IPC: 1.46281340002
+lulesh_voluDer_host_1.txt:IPC: 1.57958285308
+lulesh_voluDer_pim_1.txt:IPC: 1.42125941776
+======================================
+jacobis_host_1.txt:L3 MPKI: 1.83944705268
+jacobis_pim_1.txt:L3 MPKI: 0.0
+lulesh_Calctime_host_1.txt:L3 MPKI: 0.00697770731801
+lulesh_Calctime_pim_1.txt:L3 MPKI: 0.0
+lulesh_LagrangeElement_host_1.txt:L3 MPKI: 0.00744199253568
+lulesh_LagrangeElement_pim_1.txt:L3 MPKI: 0.0
+lulesh_LagrangeNodal_host_1.txt:L3 MPKI: 0.0143499682005
+lulesh_LagrangeNodal_pim_1.txt:L3 MPKI: 0.0
+lulesh_voluDer_host_1.txt:L3 MPKI: 0.00723199456154
+lulesh_voluDer_pim_1.txt:L3 MPKI: 0.0
+======================================
+jacobis_host_1.txt:L3 Miss Rate (%): 100.0
+jacobis_pim_1.txt:L3 Miss Rate (%): 0.0
+lulesh_Calctime_host_1.txt:L3 Miss Rate (%): 100.0
+lulesh_Calctime_pim_1.txt:L3 Miss Rate (%): 0.0
+lulesh_LagrangeElement_host_1.txt:L3 Miss Rate (%): 0.622888690243
+lulesh_LagrangeElement_pim_1.txt:L3 Miss Rate (%): 0.0
+lulesh_LagrangeNodal_host_1.txt:L3 Miss Rate (%): 0.541299042259
+lulesh_LagrangeNodal_pim_1.txt:L3 Miss Rate (%): 0.0
+lulesh_voluDer_host_1.txt:L3 Miss Rate (%): 0.327345873143
+lulesh_voluDer_pim_1.txt:L3 Miss Rate (%): 0.0
+======================================
+jacobis_host_1.txt:L2 Miss Rate (%): 33.3491095955
+jacobis_pim_1.txt:L2 Miss Rate (%): 0.0
+lulesh_Calctime_host_1.txt:L2 Miss Rate (%): 15.5499010461
+lulesh_Calctime_pim_1.txt:L2 Miss Rate (%): 0.0
+lulesh_LagrangeElement_host_1.txt:L2 Miss Rate (%): 20.0829980624
+lulesh_LagrangeElement_pim_1.txt:L2 Miss Rate (%): 0.0
+lulesh_LagrangeNodal_host_1.txt:L2 Miss Rate (%): 65.8735687759
+lulesh_LagrangeNodal_pim_1.txt:L2 Miss Rate (%): 0.0
+lulesh_voluDer_host_1.txt:L2 Miss Rate (%): 99.9885080055
+lulesh_voluDer_pim_1.txt:L2 Miss Rate (%): 0.0
+======================================
+jacobis_host_1.txt:L1 Miss Rate (%): 5.93420850541
+jacobis_pim_1.txt:L1 Miss Rate (%): 5.93424217994
+lulesh_Calctime_host_1.txt:L1 Miss Rate (%): 0.312046317189
+lulesh_Calctime_pim_1.txt:L1 Miss Rate (%): 6.52025885248
+lulesh_LagrangeElement_host_1.txt:L1 Miss Rate (%): 7.57925664754
+lulesh_LagrangeElement_pim_1.txt:L1 Miss Rate (%): 7.57161340309
+lulesh_LagrangeNodal_host_1.txt:L1 Miss Rate (%): 7.21841518279
+lulesh_LagrangeNodal_pim_1.txt:L1 Miss Rate (%): 7.34202127731
+lulesh_voluDer_host_1.txt:L1 Miss Rate (%): 3.80860465054
+lulesh_voluDer_pim_1.txt:L1 Miss Rate (%): 6.21240036439
+======================================
+jacobis_host_1.txt:LFMR: 0.500036698485
+jacobis_pim_1.txt:LFMR: 0.0
+lulesh_Calctime_host_1.txt:LFMR: 0.16283632287
+lulesh_Calctime_pim_1.txt:LFMR: 0.0
+lulesh_LagrangeElement_host_1.txt:LFMR: 0.00221966512346
+lulesh_LagrangeElement_pim_1.txt:LFMR: 0.0
+lulesh_LagrangeNodal_host_1.txt:LFMR: 0.00417305954185
+lulesh_LagrangeNodal_pim_1.txt:LFMR: 0.0
+lulesh_voluDer_host_1.txt:LFMR: 0.00327341279989
+lulesh_voluDer_pim_1.txt:LFMR: 0.0
+======================================}
