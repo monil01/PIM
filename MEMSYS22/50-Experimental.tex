@@ -1,11 +1,27 @@
 
-In this section we describe the target hardware platform, simulator infrastructure, and benchmarks used to carry out the experiments.
 
-\subsection{DAMOV}
-- Host CPU Configuration \\
-- PIM CPU configuration \\
-\subsection{HMC}
-- Configuration \\
+
+%In this section we describe the simulator infrastructure target hardware platform, , and benchmarks used to carry out the experiments.
+
+For our experiments we use recently released DAMOV-SIM simulation infrastructure~\cite{71}. DAMOV is based on ZSim system simulator[] coupled with Ramulator memory simulator[]. ZSim is used simulate both host and pim core's microarchitecture, cache hirerchy and coherence protocols; whereas Ramulator models HMC main memory architecture, memory controller and main memory access protocols. The system configurations used in the simulations are summarized in Table~\ref{table:hostarch}. DAMOV-SIM uses pintool v. 2.14, on a Linux kernel v.3.8.  
+
+First we identify the memory intensive kernels of the benchmarks under study, as detailed in Section 3. We use DAMOV-SIM's offloading support to isolate identified functions by inserting delimiter functions and run them for 1 billion instructions. In the configuration file, when \texttt{pimMode} is set to \texttt{true} Zsim simulates a pim core with shorter latency to memory with high bandwidth. When \texttt{pimMode} is set to \texttt{false} it simulate a core with regular settings (host processor). At function-level offloading granularity it is easier to determine and comapre how the same function performs in PIM and host cores. %The simulation infrastructure does not yet support concurrent execution on PIM and host core.         
+
+The simulation infrastructure provides three important performance matrices: Instruction Per Cycle (IPC), Misses-Per-Kilo-Instruction (MPKI) and Last to First Miss Ratio (LFMR), which indicates the ratio of last level cache misses to first level cache misses.    
+
+
+
+
+%DAMOV-SIM supports function offloading using Zsim delimiters.     
+
+
+
+
+% \subsection{DAMOV}
+% - Host CPU Configuration \\
+% - PIM CPU configuration \\
+% \subsection{HMC}
+% - Configuration \\
 
 
 % \begin{savenotes}
@@ -38,39 +54,32 @@ In this section we describe the target hardware platform, simulator infrastructu
 %
 %% 
 %
-%\begin{table}[t!]
-%%\normalsize
-%\small
-%\caption{Next Generation Microprocessor~(NGMP): Main features}
-%%\begin{center}
-%    \begin{tabularx}{\columnwidth}{lXr}
-%\toprule
-%    % \hline
-%    Feature & Description  \\
-%\midrule
-%Cores & 4  \\
-%ISA & SPARC v8 \\
-%Pipeline stages & Fetch, decode, register, execute, memory, exceptions, commit \\
-%Core Frequency   & 150 MHz \\ 
-%Superscalar & No  \\
-%Out-of-Order & No  \\
-%\midrule
-%L1 D-cache & Private (per-core) \\
-%           & 16KiB, 32 byte/line, 4-way\\
-%	         & Write-through, Write no-allocate \\
-%L1 I-cache & Private (per-core) \\
-%           & 16KiB, 32 byte/line, 4-way \\
-%L2 cache   & Shared: 4 cores \\
-%           & Unified: Data and Instructions  \\
-%           & 256KiB, 32 byte/line, 4-way \\ 
-%					 & Copy-back, Write-allocate \\
-%\midrule
-%FPU & Double precission IEEE-754 \\
-%\bottomrule
-%   \end{tabularx}
-%\label{table:NGMP}
-%%\vspace{-4mm}
-%\end{table}
+\begin{table}[t!]
+%\normalsize
+\small
+\caption{Configurations used in the simulation }
+%\begin{cente
+    \begin{tabularx}{\columnwidth}{lXr}
+\toprule
+    % \hline
+Unit & Configuration  \\
+\midrule
+Host CPU & 1 out-of-order Core running at 2.4GHz,   \\
+L1 Cache & 32KB, 8-way, 64B/Line, LRU policy \\
+L2 Cache & 256KB, 8-way, 64B/Line, LRU Policy \\
+L3 Cache & 8MB, 16-way, 64B/Line, LRU Policy  \\
+\midrule
+PIM CPU & 1 out-of-order Core running at 2.4GHz,   \\
+L1 Cache & 32KB, 8-way, 64B/Line, LRU policy \\
+\midrule
+Main Memory & HMC v.2.0, 32 Vaults, 8 DRAM banks/vault, 256B row buffer, 8GB capacity.\\
+
+
+\bottomrule
+  \end{tabularx}
+\label{table:hostarch}
+%\vspace{-4mm}
+\end{table}
 %
 %
 %
