@@ -6,7 +6,7 @@
 \subsection{Jacobi}
 The main function in Jacobi is the $stencil\_jacobi$ function which is a memory bound kernel (see Fig.~\ref{fig:roof-jacobi}). 
 
-\begin{figure}[h]%[bp]
+\begin{figure}[t]%[bp]
 \begin{center}
 \includegraphics[width=1\linewidth]{MEMSYS22/figures/roofline/jacobi.png}
 \end{center}
@@ -19,7 +19,7 @@ The main function in Jacobi is the $stencil\_jacobi$ function which is a memory 
 \subsection{MiniAMR}
 The main computation function in miniAMR is the $stencil\_calc$  which is a memory bound kernel (see Fig.~\ref{fig:roof-miniamr}). 
 
-\begin{figure}[h]%[bp]
+\begin{figure}[t]%[bp]
 \begin{center}
 \includegraphics[width=1\linewidth]{MEMSYS22/figures/roofline/miniamr.png}
 \end{center}
@@ -37,7 +37,7 @@ The main computation function in SimpleMOC is the $attenuate\_fluxes$  which is 
 \includegraphics[width=1\linewidth]{MEMSYS22/figures/roofline/simplesoc.png}
 \end{center}
   \vspace{-0.1in}
-\caption{Positioning of the main compute kernel of MiniAMR app in Roofline. Here the red circle indicates the $attenuate\_fluxes$ function }
+\caption{Positioning of the main compute kernel of SimpleMOC app in Roofline. Here the red circle indicates the $attenuate\_fluxes$ function }
 \label{fig:roof-simplemoc}
 \vspace{-0.2in}
 \end{figure}
@@ -46,12 +46,12 @@ The main computation function in SimpleMOC is the $attenuate\_fluxes$  which is 
 \subsection{PathFinder}
 The main computation function in PathFinder is the $findAndRecordAllPaths$  which is a memory bound kernel (see Fig.~\ref{fig:roof-simplemoc}). 
 
-\begin{figure}[h]%[bp]
+\begin{figure}[t]%[bp]
 \begin{center}
 \includegraphics[width=1\linewidth]{MEMSYS22/figures/roofline/pathfinder.png}
 \end{center}
   \vspace{-0.1in}
-\caption{Positioning of the main compute kernel of MiniAMR app in Roofline. Here the red circle indicates the $findAndRecordAllPaths$ function }
+\caption{Positioning of the main compute kernel of PathFinder app in Roofline. Here the red circle indicates the $findAndRecordAllPaths$ function }
 \label{fig:roof-pathfinder}
 \vspace{-0.2in}
 \end{figure}
@@ -92,7 +92,7 @@ The main computation function in PathFinder is the $findAndRecordAllPaths$  whic
 \begin{table}[t!]
 %\normalsize
 \small
-\caption{\mbox{HPC Benchmarks and their Memory-Bound/Critical Kernel/Functions identified}}
+\caption{HPC Benchmarks and their Memory-Bound/Critical Kernel/Functions identified}
 \centering
 %    \begin{tabularx}{\columnwidth}{lcc}
     \begin{tabularx}{7.2cm}{lcc}

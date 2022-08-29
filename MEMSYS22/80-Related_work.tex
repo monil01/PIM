@@ -1,1 +1,11 @@
-Related Works
+Several recent studies explore the architectural scope, application domain, and challenges of processing in memory.
+
+\subsection{Architectural Scope of PIM}
+
+Processing in the memory array is addressed in several studies~\cite{03,06,13,15,20,29}. Leitersdorf et al. \cite{13} propose to improve in-memory multiplication with partition-based computation techniques for broadcasting and moving data within partitions. The authors exploit ReRAM's voltage controlled variable resistance to support logic gates. Long et al. \cite{20} proposes another ReRAM based design particularly for Recurrent Neural Network (RNN) acceleration. The study proposes crossbar sub-arrays for vmatrix vector multiplication, multiplier sub-arrays for element-wise operations and special function units for nonlinear functions. Peng et al. \cite{15} present a new mapping method and data flow to maximize reuse of weight and input data on a 8-bit ReRAM based PIM architecture. 
+Lin et al. \cite{31} present PIM design proposing optimization at the row buffer level. The authors introduce a \textit{Population Count Engine} which works on the data inside the sense amplifier and store the results back to the sense amplifier. Majority of the studies adopt near memory compute unit equipped with simple core(s) \cite{01,02,05,11,12,17,30,32,33,34,35}. Lee et al. \cite{12} develops an industrial prototype of a PIM design that can seamlessly work with a variety of commercial processors without requiring any changes on the applications. The proposed PIM execution unit has a five-stage pipeline, 16-wide SIMD FPU, registers and controller. This design is based on a HBM stack which is fabricated with a 20nm technology process. PimCaffe \cite{16} develops a PIM near memory design based on multiple FPGAs, implementing       
+
+\subsection{Application Domain}
+
+Vast maj
+
