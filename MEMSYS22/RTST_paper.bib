@@ -1,3 +1,73 @@
+@INPROCEEDINGS{hmc,  author={Hadidi, Ramyad and Asgari, Bahar and Mudassar, Burhan Ahmad and Mukhopadhyay, Saibal and Yalamanchili, Sudhakar and Kim, Hyesoon},  booktitle={2017 IEEE International Symposium on Workload Characterization (IISWC)},   title={Demystifying the characteristics of 3D-stacked memories: A case study for Hybrid Memory Cube},   year={2017},  volume={},  number={},  pages={66-75},  doi={10.1109/IISWC.2017.8167757}}
+
+
+@misc{71,
+  doi = {10.48550/ARXIV.2105.03725},
+  
+  url = {https://arxiv.org/abs/2105.03725},
+  
+  author = {Oliveira, Geraldo F. and Gómez-Luna, Juan and Orosa, Lois and Ghose, Saugata and Vijaykumar, Nandita and Fernandez, Ivan and Sadrosadati, Mohammad and Mutlu, Onur},
+  
+  keywords = {Hardware Architecture (cs.AR), Distributed, Parallel, and Cluster Computing (cs.DC), Performance (cs.PF), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {DAMOV: A New Methodology and Benchmark Suite for Evaluating Data Movement Bottlenecks},
+  
+  publisher = {arXiv},
+  
+  year = {2021},
+  
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+
+
+
+@article{zsim,
+author = {Sanchez, Daniel and Kozyrakis, Christos},
+title = {ZSim: Fast and Accurate Microarchitectural Simulation of Thousand-Core Systems},
+year = {2013},
+issue_date = {June 2013},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {41},
+number = {3},
+issn = {0163-5964},
+url = {https://doi.org/10.1145/2508148.2485963},
+doi = {10.1145/2508148.2485963},
+abstract = {Architectural simulation is time-consuming, and the trend towards hundreds of cores is making sequential simulation even slower. Existing parallel simulation techniques either scale poorly due to excessive synchronization, or sacrifice accuracy by allowing event reordering and using simplistic contention models. As a result, most researchers use sequential simulators and model small-scale systems with 16-32 cores. With 100-core chips already available, developing simulators that scale to thousands of cores is crucial.We present three novel techniques that, together, make thousand-core simulation practical. First, we speed up detailed core models (including OOO cores) with instruction-driven timing models that leverage dynamic binary translation. Second, we introduce bound-weave, a two-phase parallelization technique that scales parallel simulation on multicore hosts efficiently with minimal loss of accuracy. Third, we implement lightweight user-level virtualization to support complex workloads, including multiprogrammed, client-server, and managed-runtime applications, without the need for full-system simulation, sidestepping the lack of scalable OSs and ISAs that support thousands of cores.We use these techniques to build zsim, a fast, scalable, and accurate simulator. On a 16-core host, zsim models a 1024-core chip at speeds of up to 1,500 MIPS using simple cores and up to 300 MIPS using detailed OOO cores, 2-3 orders of magnitude faster than existing parallel simulators. Simulator performance scales well with both the number of modeled cores and the number of host cores. We validate zsim against a real Westmere system on a wide variety of workloads, and find performance and microarchitectural events to be within a narrow range of the real system.},
+journal = {SIGARCH Comput. Archit. News},
+month = {jun},
+pages = {475–486},
+numpages = {12}
+}
+
+
+@ARTICLE{ramulator,  author={Kim, Yoongu and Yang, Weikun and Mutlu, Onur},  journal={IEEE Computer Architecture Letters},   title={Ramulator: A Fast and Extensible DRAM Simulator},   year={2016},  volume={15},  number={1},  pages={45-49},  doi={10.1109/LCA.2015.2414456}}
+
+
+@inproceedings{10.1145/2485922.2485963,
+author = {Sanchez, Daniel and Kozyrakis, Christos},
+title = {ZSim: Fast and Accurate Microarchitectural Simulation of Thousand-Core Systems},
+year = {2013},
+isbn = {9781450320795},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2485922.2485963},
+doi = {10.1145/2485922.2485963},
+abstract = {Architectural simulation is time-consuming, and the trend towards hundreds of cores is making sequential simulation even slower. Existing parallel simulation techniques either scale poorly due to excessive synchronization, or sacrifice accuracy by allowing event reordering and using simplistic contention models. As a result, most researchers use sequential simulators and model small-scale systems with 16-32 cores. With 100-core chips already available, developing simulators that scale to thousands of cores is crucial.We present three novel techniques that, together, make thousand-core simulation practical. First, we speed up detailed core models (including OOO cores) with instruction-driven timing models that leverage dynamic binary translation. Second, we introduce bound-weave, a two-phase parallelization technique that scales parallel simulation on multicore hosts efficiently with minimal loss of accuracy. Third, we implement lightweight user-level virtualization to support complex workloads, including multiprogrammed, client-server, and managed-runtime applications, without the need for full-system simulation, sidestepping the lack of scalable OSs and ISAs that support thousands of cores.We use these techniques to build zsim, a fast, scalable, and accurate simulator. On a 16-core host, zsim models a 1024-core chip at speeds of up to 1,500 MIPS using simple cores and up to 300 MIPS using detailed OOO cores, 2-3 orders of magnitude faster than existing parallel simulators. Simulator performance scales well with both the number of modeled cores and the number of host cores. We validate zsim against a real Westmere system on a wide variety of workloads, and find performance and microarchitectural events to be within a narrow range of the real system.},
+booktitle = {Proceedings of the 40th Annual International Symposium on Computer Architecture},
+pages = {475–486},
+numpages = {12},
+location = {Tel-Aviv, Israel},
+series = {ISCA '13}
+}
+
+
+
+
+
+
+
+
 @inproceedings{monil2022mapredict,
   title={MAPredict: Static Analysis Driven Memory Access Prediction Framework for Modern CPUs},
   author={Monil, Mohammad Alaul Haque and Lee, Seyong and Vetter, Jeffrey S and Malony, Allen D},
