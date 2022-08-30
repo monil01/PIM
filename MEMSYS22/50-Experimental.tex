@@ -11,7 +11,7 @@ whereas Ramulator models HMC main memory architecture, memory controller and mai
 
 First we identify the memory intensive kernels of the benchmarks under study, as detailed in Section 3. We use DAMOV-SIM's offloading support to isolate identified functions by inserting delimiter functions and run them for 1 billion instructions. In the configuration file, when \texttt{pimMode} is set to \texttt{true} Zsim simulates a pim core with shorter latency to memory with high bandwidth. When \texttt{pimMode} is set to \texttt{false} it simulate a core with regular settings (host processor). At function-level offloading granularity it is easier to determine and comapre how the same function performs in PIM and host cores. %The simulation infrastructure does not yet support concurrent execution on PIM and host core.         
 
-The simulation infrastructure provides three important performance metrics: Instruction Per Cycle (IPC), Misses-Per-Kilo-Instruction (MPKI) and Last to First Miss Ratio (LFMR), which indicates the ratio of last level cache misses to first level cache misses.    
+We analyze three important performance metrics: Instruction Per Cycle (IPC), Misses-Per-Kilo-Instruction (MPKI) and Last to First Miss Ratio (LFMR), which indicates the ratio of last level cache misses to first level cache misses.    
 
 
 
