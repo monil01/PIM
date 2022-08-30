@@ -6,6 +6,19 @@ The other approach is to change the organization of conventional memory systems 
 
 HMC comes with an optional logic layer beneath the stack. This logic layer can be leveraged to implement simple processing units closer to the memory, which corresponds to the technique Processing-in-memory (PIM)\footnote{Also known as Compute-in-Memory (CIM), processing-near-memory or processing-using-memory. For simplicity we refer to it as Processing-in-memory (PIM) throughout the paper.}, which builds on the idea of moving the execution of certain memory-intensive applications/kernels to the memory, instead of bringing the data to CPU for processing through expensive memory accesses. An upsurge of research activity investigating different PIM techniques indicates that it has significant potential to accelerate memory bound problems. Recent studies report significant improvements in performance and energy efficiency by adopting PIM techniques. However, these studies largely focus and analyze on the applications from Artificial Intelligence, Machine Learning, Neural Network domain along with some generic kernels. 
 
-In this paper, we perform a preliminary evaluation of HPC kernels for Processing in Memory. We select \fixme{five} HPC benchmarks applications developed by laboratories of US Department of Energy (DoE) along with two well-known generic applications, identify their memory intensive kernels and analyze their suitability and performance with processing-in-memory. We further extend our experiments to examine several other special kernels and investigate how their performance on PIM compare with the memory-intensive kernels.   
+\begin{figure*}[t!]
+\centering
+\includegraphics[width=.8\linewidth]{MEMSYS22/figures/pimcat.png}
+%\vspace{.5em} 
+\caption{Generic representation of a Main Memory DIMM. Processing in memory can take place at the (1) memory array, (2) row buffer or in a simple processing unit (3) closer to the banks}.
+%\vspace{-1.5em} 
+\label{fig:pimcat}
+%\vspace{-0.6cm}    
+\end{figure*}   
+\looseness -1
+
+In this paper, we perform a preliminary evaluation of HPC kernels for Processing in Memory. We select HPC benchmarks applications developed by the laboratories of US Department of Energy (DoE), identify their memory intensive kernels and analyze their suitability and performance with processing-in-memory. We also analyze key factors affecting PIM efficiency.  
 
 The rest of the paper is organized as follows. Section 2 presents a background and related works on PIM techniques, Section 3 presents the workload characterization of target applications, Section 4 explains the experimental setup and methodologies used, Section 5 presents the results of the evaluation, and Section 6 summarizes the conclusions of the study.   
+
+
