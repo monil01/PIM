@@ -1,13 +1,17 @@
 
-
-
 %In this section we describe the simulator infrastructure target hardware platform, , and benchmarks used to carry out the experiments.
 
-For our experiments we use recently released DAMOV-SIM simulation infrastructure~\cite{71}. DAMOV is based on ZSim system simulator[] coupled with Ramulator memory simulator[]. ZSim is used simulate both host and pim core's microarchitecture, cache hirerchy and coherence protocols; whereas Ramulator models HMC main memory architecture, memory controller and main memory access protocols. The system configurations used in the simulations are summarized in Table~\ref{table:hostarch}. DAMOV-SIM uses pintool v. 2.14, on a Linux kernel v.3.8.  
+In this section we present the simulation infrastructure and methodology used in the study as well as the metrics that are used to represent the results.  
+
+For our experiments we use recently released DAMOV-SIM simulation infrastructure~\cite{71}. DAMOV is based on ZSim system simulator[] coupled with Ramulator memory simulator[]. ZSim is used simulate both host and pim core's microarchitecture, cache hirerchy and coherence protocols. We use Hybrid Memory Cube (HMC) \fixme{[cite]} to leverage its logic layer where PIM execution unit is realized. Ramulator memory simulator is used to model HMC main memory architecture 
+
+
+
+whereas Ramulator models HMC main memory architecture, memory controller and main memory access protocols. The system configurations used in the simulations are summarized in Table~\ref{table:hostarch}. DAMOV-SIM uses pintool v. 2.14, on a Linux kernel v.3.8.  
 
 First we identify the memory intensive kernels of the benchmarks under study, as detailed in Section 3. We use DAMOV-SIM's offloading support to isolate identified functions by inserting delimiter functions and run them for 1 billion instructions. In the configuration file, when \texttt{pimMode} is set to \texttt{true} Zsim simulates a pim core with shorter latency to memory with high bandwidth. When \texttt{pimMode} is set to \texttt{false} it simulate a core with regular settings (host processor). At function-level offloading granularity it is easier to determine and comapre how the same function performs in PIM and host cores. %The simulation infrastructure does not yet support concurrent execution on PIM and host core.         
 
-The simulation infrastructure provides three important performance matrices: Instruction Per Cycle (IPC), Misses-Per-Kilo-Instruction (MPKI) and Last to First Miss Ratio (LFMR), which indicates the ratio of last level cache misses to first level cache misses.    
+The simulation infrastructure provides three important performance metrics: Instruction Per Cycle (IPC), Misses-Per-Kilo-Instruction (MPKI) and Last to First Miss Ratio (LFMR), which indicates the ratio of last level cache misses to first level cache misses.    
 
 
 

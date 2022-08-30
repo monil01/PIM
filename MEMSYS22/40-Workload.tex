@@ -6,7 +6,8 @@ This section introduces the HPC application studied in this research and delves 
 \includegraphics[width=1\linewidth]{MEMSYS22/figures/roofline/roofline_pim.png}
 \end{center}
   \vspace{-0.1in}
-\caption{Approximate Roofline positioning of the studied functions of different applications.}
+%\caption{Approximate Roofline positioning of the studied functions of different applications.}
+\caption{Approximate representation of HPC application kernels on the roofline model.}
 \label{fig:roofline}
 \vspace{-0.2in}
 \end{figure}
@@ -62,13 +63,13 @@ Lulesh (Livermore Unstructured Lagrangian Explicit Shock Hydrodynamics) is a wel
 %laplace  & - & +++ \\
 
 %Lulesh-2 & CalcElemCharacteristicLength & DRAM BW bound \\
-SimpleMOC & attenuate\_fluxes & DRAM BW bound \\
-PathFinder   & findAndRecordAllPaths & DRAM BW bound \\
-XSBench      & calculate\_micro\_xs & DRAM BW bound \\
+SimpleMOC & attenuate\_fluxes & Main Memory BW bound \\
+PathFinder   & findAndRecordAllPaths & Main Memory BW bound \\
+XSBench      & calculate\_micro\_xs & Main Memory BW bound \\
 RSBench      & c\_mul & L3 BW bound \\
 MiniAMR      & stencil\_calc & L3 BW bound \\
-QuickSilver      & macroscopicCrossSection & DRAM BW bound \\
-Lulesh & CalcKinematicsForElems & DRAM BW bound \\
+QuickSilver      & macroscopicCrossSection & Main Memory BW bound \\
+Lulesh & CalcKinematicsForElems & Main Memory BW bound \\
 \bottomrule
    \end{tabularx}
 \label{table:apps}
