@@ -1,0 +1,40 @@
+rsbench_host_1.txt:Instructions: 1000000725
+rsbench_pim_1.txt:Instructions: 1000011751
+xsbench_host_1.txt:Instructions: 1000000124
+xsbench_pim_1.txt:Instructions: 1000004200
+======================================
+rsbench_host_1.txt:Cycles: 675792002
+rsbench_pim_1.txt:Cycles: 711500660
+xsbench_host_1.txt:Cycles: 956757436
+xsbench_pim_1.txt:Cycles: 857352712
+======================================
+rsbench_host_1.txt:IPC: 1.47974631549
+rsbench_pim_1.txt:IPC: 1.40549658942
+xsbench_host_1.txt:IPC: 1.04519712769
+xsbench_pim_1.txt:IPC: 1.1663859996
+======================================
+rsbench_host_1.txt:L3 MPKI: 0.0822989403333
+rsbench_pim_1.txt:L3 MPKI: 0.0
+xsbench_host_1.txt:L3 MPKI: 4.6500394234
+xsbench_pim_1.txt:L3 MPKI: 0.0
+======================================
+rsbench_host_1.txt:L3 Miss Rate (%): 9.45945945946
+rsbench_pim_1.txt:L3 Miss Rate (%): 0.0
+xsbench_host_1.txt:L3 Miss Rate (%): 69.7929119529
+xsbench_pim_1.txt:L3 Miss Rate (%): 0.0
+======================================
+rsbench_host_1.txt:L2 Miss Rate (%): 67.5631507481
+rsbench_pim_1.txt:L2 Miss Rate (%): 0.0
+xsbench_host_1.txt:L2 Miss Rate (%): 95.8607776279
+xsbench_pim_1.txt:L2 Miss Rate (%): 0.0
+======================================
+rsbench_host_1.txt:L1 Miss Rate (%): 3.96358773222
+rsbench_pim_1.txt:L1 Miss Rate (%): 3.9690902192
+xsbench_host_1.txt:L1 Miss Rate (%): 18.6774419098
+xsbench_pim_1.txt:L1 Miss Rate (%): 37.4129687894
+======================================
+rsbench_host_1.txt:LFMR: 0.065885372469
+rsbench_pim_1.txt:LFMR: 0.0
+xsbench_host_1.txt:LFMR: 0.669040372714
+xsbench_pim_1.txt:LFMR: 0.0
+======================================

@@ -1,0 +1,120 @@
+jacobi_host_1.txt:Instructions: 1000001809
+jacobi_pim_1.txt:Instructions: 1000003849
+laplace_host_1.txt:Instructions: 1000000555
+laplace_pim_1.txt:Instructions: 1000011043
+lulesh_host_1.txt:Instructions: 1000001783
+lulesh_pim_1.txt:Instructions: 1000009211
+pathfinder_host_1.txt:Instructions: 2000001036
+pathfinder_pim_1.txt:Instructions: 1000007532
+rsbench_host_1.txt:Instructions: 1000000146
+rsbench_pim_1.txt:Instructions: 1000010019
+simplemoc_host_1.txt:Instructions: 1000000723
+simplemoc_pim_1.txt:Instructions: 1000004489
+xsbench_host_1.txt:Instructions: 1000000212
+xsbench_pim_1.txt:Instructions: 1000007087
+======================================
+jacobi_host_1.txt:Cycles: 554608234
+jacobi_pim_1.txt:Cycles: 572133225
+laplace_host_1.txt:Cycles: 662763316
+laplace_pim_1.txt:Cycles: 757314440
+lulesh_host_1.txt:Cycles: 587849003
+lulesh_pim_1.txt:Cycles: 689082720
+pathfinder_host_1.txt:Cycles: 920374002
+pathfinder_pim_1.txt:Cycles: 1044192709
+rsbench_host_1.txt:Cycles: 655329022
+rsbench_pim_1.txt:Cycles: 695580660
+simplemoc_host_1.txt:Cycles: 540745157
+simplemoc_pim_1.txt:Cycles: 529290959
+xsbench_host_1.txt:Cycles: 1065740235
+xsbench_pim_1.txt:Cycles: 924123828
+======================================
+jacobi_host_1.txt:IPC: 1.80307782628
+jacobi_pim_1.txt:IPC: 1.74785138374
+laplace_host_1.txt:IPC: 1.50883510125
+laplace_pim_1.txt:IPC: 1.32047005865
+lulesh_host_1.txt:IPC: 1.70112014803
+lulesh_pim_1.txt:IPC: 1.45121794812
+pathfinder_host_1.txt:IPC: 2.17303078059
+pathfinder_pim_1.txt:IPC: 0.95768484436
+rsbench_host_1.txt:IPC: 1.52595125873
+rsbench_pim_1.txt:IPC: 1.43766219578
+simplemoc_host_1.txt:IPC: 1.8493013022
+simplemoc_pim_1.txt:IPC: 1.88932849125
+xsbench_host_1.txt:IPC: 0.938315153317
+xsbench_pim_1.txt:IPC: 1.08211373487
+======================================
+jacobi_host_1.txt:L3 MPKI: 1.83969567199
+jacobi_pim_1.txt:L3 MPKI: 0.0
+laplace_host_1.txt:L3 MPKI: 2.71969549057
+laplace_pim_1.txt:L3 MPKI: 0.0
+lulesh_host_1.txt:L3 MPKI: 0.0193109655685
+lulesh_pim_1.txt:L3 MPKI: 0.0
+pathfinder_host_1.txt:L3 MPKI: 0.0210979890712
+pathfinder_pim_1.txt:L3 MPKI: 0.0
+rsbench_host_1.txt:L3 MPKI: 0.0801869882927
+rsbench_pim_1.txt:L3 MPKI: 0.0
+simplemoc_host_1.txt:L3 MPKI: 0.537832611147
+simplemoc_pim_1.txt:L3 MPKI: 0.0
+xsbench_host_1.txt:L3 MPKI: 5.39525685621
+xsbench_pim_1.txt:L3 MPKI: 0.0
+======================================
+jacobi_host_1.txt:L3 Miss Rate (%): 100.0
+jacobi_pim_1.txt:L3 Miss Rate (%): 0.0
+laplace_host_1.txt:L3 Miss Rate (%): 100.0
+laplace_pim_1.txt:L3 Miss Rate (%): 0.0
+lulesh_host_1.txt:L3 Miss Rate (%): 0.882555375083
+lulesh_pim_1.txt:L3 Miss Rate (%): 0.0
+pathfinder_host_1.txt:L3 Miss Rate (%): 0.260677774569
+pathfinder_pim_1.txt:L3 Miss Rate (%): 0.0
+rsbench_host_1.txt:L3 Miss Rate (%): 7.90586745962
+rsbench_pim_1.txt:L3 Miss Rate (%): 0.0
+simplemoc_host_1.txt:L3 Miss Rate (%): 70.4062050007
+simplemoc_pim_1.txt:L3 Miss Rate (%): 0.0
+xsbench_host_1.txt:L3 Miss Rate (%): 66.6124162569
+xsbench_pim_1.txt:L3 Miss Rate (%): 0.0
+======================================
+jacobi_host_1.txt:L2 Miss Rate (%): 33.3707758839
+jacobi_pim_1.txt:L2 Miss Rate (%): 0.0
+laplace_host_1.txt:L2 Miss Rate (%): 33.3604140729
+laplace_pim_1.txt:L2 Miss Rate (%): 0.0
+lulesh_host_1.txt:L2 Miss Rate (%): 48.5441279035
+lulesh_pim_1.txt:L2 Miss Rate (%): 0.0
+pathfinder_host_1.txt:L2 Miss Rate (%): 76.133351754
+pathfinder_pim_1.txt:L2 Miss Rate (%): 0.0
+rsbench_host_1.txt:L2 Miss Rate (%): 70.6584589307
+rsbench_pim_1.txt:L2 Miss Rate (%): 0.0
+simplemoc_host_1.txt:L2 Miss Rate (%): 99.458034104
+simplemoc_pim_1.txt:L2 Miss Rate (%): 0.0
+xsbench_host_1.txt:L2 Miss Rate (%): 90.8834550082
+xsbench_pim_1.txt:L2 Miss Rate (%): 0.0
+======================================
+jacobi_host_1.txt:L1 Miss Rate (%): 5.93152214559
+jacobi_pim_1.txt:L1 Miss Rate (%): 5.93152176418
+laplace_host_1.txt:L1 Miss Rate (%): 7.97930761653
+laplace_pim_1.txt:L1 Miss Rate (%): 7.97932575106
+lulesh_host_1.txt:L1 Miss Rate (%): 7.4722805907
+lulesh_pim_1.txt:L1 Miss Rate (%): 7.42141641102
+pathfinder_host_1.txt:L1 Miss Rate (%): 23.1864841502
+pathfinder_pim_1.txt:L1 Miss Rate (%): 25.7151012107
+rsbench_host_1.txt:L1 Miss Rate (%): 4.42900434239
+rsbench_pim_1.txt:L1 Miss Rate (%): 4.43051410601
+simplemoc_host_1.txt:L1 Miss Rate (%): 2.68219242032
+simplemoc_pim_1.txt:L1 Miss Rate (%): 2.69892949263
+xsbench_host_1.txt:L1 Miss Rate (%): 51.0844962472
+xsbench_pim_1.txt:L1 Miss Rate (%): 51.0844675572
+======================================
+jacobi_host_1.txt:LFMR: 0.500280502048
+jacobi_pim_1.txt:LFMR: 0.0
+laplace_host_1.txt:LFMR: 0.500200654306
+laplace_pim_1.txt:LFMR: 0.0
+lulesh_host_1.txt:LFMR: 0.00560269031261
+lulesh_pim_1.txt:LFMR: 0.0
+pathfinder_host_1.txt:LFMR: 0.002004393934
+pathfinder_pim_1.txt:LFMR: 0.0
+rsbench_host_1.txt:LFMR: 0.0558697869636
+rsbench_pim_1.txt:LFMR: 0.0
+simplemoc_host_1.txt:LFMR: 0.700246855072
+simplemoc_pim_1.txt:LFMR: 0.0
+xsbench_host_1.txt:LFMR: 0.605397123766
+xsbench_pim_1.txt:LFMR: 0.0
+======================================}

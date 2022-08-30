@@ -1,0 +1,72 @@
+lulesh-CalcElemCharacteristicLength_host_1.txt:Instructions: 0
+lulesh-CalcElemCharacteristicLength_pim_1.txt:Instructions: 0
+lulesh-CalcFBHourglassForceForElems_host_1.txt:Instructions: 1000001052
+lulesh-CalcFBHourglassForceForElems_pim_1.txt:Instructions: 0
+miniamr_host_1.txt:Instructions: 1000001892
+miniamr_pim_1.txt:Instructions: 1000000871
+quicksilver_host_1.txt:Instructions: 1000000389
+quicksilver_pim_1.txt:Instructions: 1000001996
+======================================
+lulesh-CalcElemCharacteristicLength_host_1.txt:Cycles: 0
+lulesh-CalcElemCharacteristicLength_pim_1.txt:Cycles: 0
+lulesh-CalcFBHourglassForceForElems_host_1.txt:Cycles: 468796034
+lulesh-CalcFBHourglassForceForElems_pim_1.txt:Cycles: 0
+miniamr_host_1.txt:Cycles: 502539015
+miniamr_pim_1.txt:Cycles: 584061181
+quicksilver_host_1.txt:Cycles: 505993006
+quicksilver_pim_1.txt:Cycles: 593230076
+======================================
+lulesh-CalcElemCharacteristicLength_host_1.txt:IPC: 0.0
+lulesh-CalcElemCharacteristicLength_pim_1.txt:IPC: 0.0
+lulesh-CalcFBHourglassForceForElems_host_1.txt:IPC: 2.1331260921
+lulesh-CalcFBHourglassForceForElems_pim_1.txt:IPC: 0.0
+miniamr_host_1.txt:IPC: 1.98989901709
+miniamr_pim_1.txt:IPC: 1.71215089023
+quicksilver_host_1.txt:IPC: 1.97631267061
+quicksilver_pim_1.txt:IPC: 1.68568998177
+======================================
+lulesh-CalcElemCharacteristicLength_host_1.txt:L3 MPKI: 0.0
+lulesh-CalcElemCharacteristicLength_pim_1.txt:L3 MPKI: 0.0
+lulesh-CalcFBHourglassForceForElems_host_1.txt:L3 MPKI: 0.0119719874055
+lulesh-CalcFBHourglassForceForElems_pim_1.txt:L3 MPKI: 0.0
+miniamr_host_1.txt:L3 MPKI: 0.0115219782004
+miniamr_pim_1.txt:L3 MPKI: 0.0
+quicksilver_host_1.txt:L3 MPKI: 0.0296859884522
+quicksilver_pim_1.txt:L3 MPKI: 0.0
+======================================
+lulesh-CalcElemCharacteristicLength_host_1.txt:L3 Miss Rate (%): 0.0
+lulesh-CalcElemCharacteristicLength_pim_1.txt:L3 Miss Rate (%): 0.0
+lulesh-CalcFBHourglassForceForElems_host_1.txt:L3 Miss Rate (%): 0.473707868014
+lulesh-CalcFBHourglassForceForElems_pim_1.txt:L3 Miss Rate (%): 0.0
+miniamr_host_1.txt:L3 Miss Rate (%): 0.474704926516
+miniamr_pim_1.txt:L3 Miss Rate (%): 0.0
+quicksilver_host_1.txt:L3 Miss Rate (%): 51.0156384258
+quicksilver_pim_1.txt:L3 Miss Rate (%): 0.0
+======================================
+lulesh-CalcElemCharacteristicLength_host_1.txt:L2 Miss Rate (%): 0.0
+lulesh-CalcElemCharacteristicLength_pim_1.txt:L2 Miss Rate (%): 0.0
+lulesh-CalcFBHourglassForceForElems_host_1.txt:L2 Miss Rate (%): 76.1427735138
+lulesh-CalcFBHourglassForceForElems_pim_1.txt:L2 Miss Rate (%): 0.0
+miniamr_host_1.txt:L2 Miss Rate (%): 82.687945505
+miniamr_pim_1.txt:L2 Miss Rate (%): 0.0
+quicksilver_host_1.txt:L2 Miss Rate (%): 26.7693797863
+quicksilver_pim_1.txt:L2 Miss Rate (%): 0.0
+======================================
+lulesh-CalcElemCharacteristicLength_host_1.txt:L1 Miss Rate (%): 0.0
+lulesh-CalcElemCharacteristicLength_pim_1.txt:L1 Miss Rate (%): 0.0
+lulesh-CalcFBHourglassForceForElems_host_1.txt:L1 Miss Rate (%): 6.01560170773
+lulesh-CalcFBHourglassForceForElems_pim_1.txt:L1 Miss Rate (%): 0.0
+miniamr_host_1.txt:L1 Miss Rate (%): 9.03822798786
+miniamr_pim_1.txt:L1 Miss Rate (%): 9.98852837416
+quicksilver_host_1.txt:L1 Miss Rate (%): 0.606851525663
+quicksilver_pim_1.txt:L1 Miss Rate (%): 3.99452260723
+======================================
+lulesh-CalcElemCharacteristicLength_host_1.txt:LFMR: 0
+lulesh-CalcElemCharacteristicLength_pim_1.txt:LFMR: 0
+lulesh-CalcFBHourglassForceForElems_host_1.txt:LFMR: 0.00377231739142
+lulesh-CalcFBHourglassForceForElems_pim_1.txt:LFMR: 0
+miniamr_host_1.txt:LFMR: 0.00399846752017
+miniamr_pim_1.txt:LFMR: 0.0
+quicksilver_host_1.txt:LFMR: 0.165699167206
+quicksilver_pim_1.txt:LFMR: 0.0
+======================================
